@@ -1,0 +1,6 @@
+@import '~leaflet/dist/leaflet.css';
+.mapwrapper{
+    width: 400px;
+    
+    height: 300px;
+}

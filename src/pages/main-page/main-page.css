@@ -99,8 +99,3 @@
     transform: scale(0.9);
 }
 
-.mapwrapper{
-    width: 70%;
-    aspect-ratio: 16/9;
-    background-color: white;
-}
