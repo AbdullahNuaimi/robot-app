@@ -1,0 +1,106 @@
+
+.main-page-container{
+    background-color: #313343;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.robot-location-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.robot-pin-image{
+    width: 40px;
+    height: 40px;
+    background-image: url("../../../public/robotPin.png");
+    background-position: center;
+    background-size: contain;
+    
+}
+.robot-location-wrapper span{
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #EBECF2;
+}
+
+
+.robot-status-wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.robot-status-wrapper>span{
+    color: #EBECF2;
+    font-size: 25px;
+}
+
+.robot-status-wrapper>span>span{
+    color: #04ff04;
+}
+
+
+.robot-options-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.robot-options-wrapper>div.inputwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.robot-options-wrapper>div.inputwrapper>label{
+    color: #969ABF;
+}
+
+.robot-options-wrapper>div.inputwrapper input{
+    height: 60px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #969ABF;
+    border-radius: 10px;
+    color: #EBECF2;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.robot-options-wrapper button{
+    width: 15%;
+    height: 60px;
+    background-color: #969ABF;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.robot-options-wrapper button:hover{
+    transition: 0.5s;
+    background-color: #878cbd;
+}
+
+.robot-options-wrapper button:active{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+.mapwrapper{
+    width: 70%;
+    aspect-ratio: 16/9;
+    background-color: white;
+}
