@@ -11,24 +11,6 @@ const MapComponent = (props) => {
     width: '600px'
   };
 
-//   function LocationMarker() {
-//     const [location, setLocation] = useState({ latitude: '', longitude: '' });
-
-//     const map = useMapEvents({
-//       click(e) {
-//         const { lat, lng } = e.latlng;
-//         setLocation({ latitude: lat.toString(), longitude: lng.toString() });
-//         console.log(location);
-//         map.flyTo(e.latlng, map.getZoom());
-//       },
-//     });
-
-//     return location.latitude === '' ? null : (
-//       <Marker position={[location.latitude, location.longitude]}>
-//         <Popup>You clicked here</Popup>
-//       </Marker>
-//     );
-//   }
 function LocationMarker() {
     const [location, setLocation] = useState({ latitude: '', longitude: '' });
   
